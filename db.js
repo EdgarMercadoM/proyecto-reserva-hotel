@@ -16,7 +16,7 @@ connection.connect((err) => {
     if (err) {
 
         // Se imprime el error
-        console.error('Error conectando a la base de datos:', err.stack);
+        console.error('Error al conectar a la base de datos: ', err.stack);
 
         // Se detiene
         return;
