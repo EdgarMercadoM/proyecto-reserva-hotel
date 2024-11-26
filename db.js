@@ -23,7 +23,7 @@ connection.connect((err) => {
     };
 
     // Se imprime el id de la conexión
-    console.log('Conectado a la base de datos como id ' + connection.threadId);
+    console.log('Conectado a la base de datos con ID: ' + connection.threadId);
 });
 
 // Se exporta la conexión
