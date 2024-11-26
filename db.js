@@ -6,11 +6,8 @@ const connection = mysql.createConnection({
     host: process.env.DB_HOST || 'localhost',
     user: process.env.DB_USER || 'root',
     password: process.env.DB_PASSWORD || '',
-    database: process.env.DB_DATABASE || 'hotel',
-    port: process.env.DB_PORT || 3306
+    database: process.env.DB_DATABASE || 'railway',
 });
-
-// mysql://root:ZNFkewTmvVyfBPHTVQRKFwYbnNBKMVtQ@autorack.proxy.rlwy.net:15889/railway
 
 // Se conecta a la base de datos
 connection.connect((err) => {
